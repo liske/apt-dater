@@ -172,7 +172,6 @@ screen_dump_cmd(const SessNode *s, const gchar *fn) {
   _argv[3] = g_strdup("-X");
   _argv[4] = g_strdup("hardcopy");
   _argv[5] = g_strdup(fn);
-  _argv[6] = NULL;
 
   return _argv;
 }
